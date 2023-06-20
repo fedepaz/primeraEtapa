@@ -1,0 +1,14 @@
+#prueba {
+    height: 500px;
+    width: 500px;
+    color: blue;
+    background-color: rgb(238, 227, 23);
+    align-self: center;
+    margin: 100px;
+
+    border-top: 5px solid blue !important;
+    border-bottom: 5px solid blue !important;
+    border-left: 5px solid blue !important;
+    border-right: 5px solid blue !important;
+
+}
