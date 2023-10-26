@@ -1,0 +1,22 @@
+{
+  "name": "primeraetapa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fedepaz/primeraEtapa.git"
+  },
+  "author": "enfermos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fedepaz/primeraEtapa/issues"
+  },
+  "homepage": "https://github.com/fedepaz/primeraEtapa#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.2"
+  }
+}
