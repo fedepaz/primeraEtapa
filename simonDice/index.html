@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="index.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="../node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <title>simonDice</title>
+  </head>
+
+  <body class="p-3 bg-opacity-25 bg-black">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8">
+          <div class="alert alert-primary" role="alert" id="estado">
+            !--- ---
+          </div>
+        </div>
+        <div class="col-sm-2">
+          <p class="alert alert-info">Ronda # <strong id="ronda">0</strong></p>
+        </div>
+        <div class="col-sm-2">
+          <button type="button" class="btn btn-primary">Empezar</button>
+        </div>
+      </div>
+    </div>
+    <div class="container" id="table">
+      <div class="row">
+        <div class="col-sm m-1 p-1">
+          <div id="cuadro1" class="cuadro">A</div>
+        </div>
+        <div class="col-sm m-1 p-1">
+          <div id="cuadro2" class="cuadro">B</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm m-1 p-1">
+          <div id="cuadro3" class="cuadro">C</div>
+        </div>
+        <div class="col-sm m-1 p-1">
+          <div id="cuadro4" class="cuadro">D</div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script src="simonDice.js"></script>
+</html>
